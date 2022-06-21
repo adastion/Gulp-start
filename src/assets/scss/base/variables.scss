@@ -1,0 +1,33 @@
+// Colors
+// Color names - http://chir.ag/projects/name-that-color/
+
+$black: #000000;
+$slate_gray: rgba(#000000, 0.5);
+$white: #FFFFFF;
+$science_blue: #0077e2;
+
+$sepia: #663d15;
+
+// Body
+$base-text-color: $white;
+
+// Headings
+$base-headings-color: $white;
+
+// Links
+$base-link-color: $white;
+$hover-link-color: $white;
+
+// Buttons
+$base-btn-text-color: $white;
+$base-btn-background-color: $science_blue;
+$hover-btn-text-color: $white;
+$hover-btn-background-color: $science_blue;
+
+// Forms
+$field-text-color: $black;
+$field-placeholder-color: $slate_gray;
+$field-border-color-focus: $sepia;
+$field-border-color: $black;
+$field-background-color: transparent;
+

@@ -1,0 +1,40 @@
+html {
+  @include main-copy-font;
+  color: $base-text-color;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: normal;
+  height: 100%;
+}
+
+a {
+  color: $base-link-color;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    color: $hover-link-color;
+    text-decoration: none;
+    transition: all 0.1s ease-in-out;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @include main-heading-font;
+  line-height: normal;
+}
+
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
